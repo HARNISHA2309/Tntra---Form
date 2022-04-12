@@ -1,0 +1,154 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="Form.css">
+  <title>Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <section>
+    <div class="body">
+      <img class="form" src="">
+      <div class="container">
+        <h1 class="Heading"><b>Customer details</b></h1>
+        <hr class="underline">
+        <form>
+          <div class="fn">
+            <label for="fname"><b>
+                <h3>Full Name:*</h3>
+              </b></label><br>
+          </div>
+          <div class="name_p">
+            <div class="name_c1">
+              <textarea id="fname" name="PC" rows="2" cols="30" placeholder="First Name" inputmode="text"></textarea>
+              <span id="usererror" class="text-danger font-weight-bold"></span>
+            </div>
+            <div class="name_c2">
+              <textarea id="lname" name="PC" rows="2" cols="30" placeholder="Last Name" inputmode="text"></textarea>
+              <span id="usererror" class="text-danger font-weight-bold"></span>
+            </div>
+          </div>
+          <div class="add">
+            <label for="address" inputmode="text"><b>
+                <h3>Address:</h3>
+              </b></lable>
+          </div>
+          <div class="address">
+            <textarea id="add_1" name="PC" rows="2" cols="64" placeholder="Address" type="text"></textarea><br>
+          </div>
+          <div class="address_2">
+            <label for="address_2"></lable>
+              <textarea id="add_2" name="PC" rows="2" cols="64" placeholder="Street address"></textarea><br>
+          </div>
+          <div class="city_m">
+            <div class="city_c1">
+              <textarea id="city" name="PC" rows="2" cols="30" placeholder="city"></textarea>
+            </div>
+            <div class="city_c2">
+              <textarea id="city_1" name="PC" rows="2" cols="30" placeholder="state/province"></textarea>
+            </div>
+          </div>
+          <br>
+          <div class="postal">
+            <label for="postal" type="number"></label>
+              <textarea id="postal" name="PC" rows="2" cols="30" placeholder="Postal/Zip code"></textarea><br>
+          </div>
+          <div class="pn">
+            <label for="city"><b>
+                <h3>Phone number:*</h3>
+              </b></label>
+          </div>
+          <div class="pn_area">
+            <textarea id="phone" name="PC" rows="2" cols="30" placeholder="(000)000-0000"></textarea>
+          </div>
+          <div class="email">
+            <label for="email"><b>
+                <h3>Email</h3>
+              </b></lable>
+          </div>
+          <div class="email_area">
+            <textarea id="email_area" name="PC" rows="2" cols="30" placeholder="example@example.com"></textarea><br>
+          </div>
+          <div class="how">
+            <label for="how"><b>
+                <h3>How did you hear about us</h3>
+              </b></lable>
+              <select name="how" id="how">
+                <option value="Please select">Please select</option>
+                <option value="newspaper">Newspaper</option>
+                <option value="Internet">Internet</option>
+                <option value="Magazine">Magazine</option>
+                <option value="Magazine">Other</option>
+              </select><br>
+
+              <label for="feedback"><b>
+                  <h3>feedback about us</h3>
+                </b></lable><br>
+                <textarea id="feedback" name="PC" rows="10" cols="64"></textarea><br>
+                <label for="feedback"><b>
+                    <h3>Suggestions if any for further Improvement</h3>
+                  </b></lable><br>
+                  <textarea id="PC" name="PC" rows="10" cols="64"></textarea>
+          </div>
+          <div class="sec4">
+            <label for="recommend"><b>
+                <h3>will you be willing to recommend us?</h3>
+              </b></lable><br>
+              <div class="yes">
+                <input type="checkbox" id="Yes" name="yes" value="Yes">
+                <label for="Yes">Yes</label><br>
+              </div>
+              <div class="Maybe">
+                <input type="checkbox" id="Maybe" name="Maybe" value="Maybe">
+                <label for="Maybe">Maybe</label><br>
+              </div>
+              <div class="No">
+                <input type="checkbox" id="No" name="No" value="no">
+                <label for="No">No</label>
+              </div>
+          </div>
+          <div class="table">
+            <b>
+              <h3>Please give reference of any two people whom you feel:</h3>
+            </b>
+            <table style="width:70%">
+              <tr style="height:50px">
+                <th></th>
+                <th style="width: 200px;"> Name</th>
+                <th style="width: 200px;">Address</th>
+                <th style="width: 200px;">Contact number</th>
+              </tr>
+              <tr style="height: 50px; width: 200;">
+                <td style="width: 30px;">1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr style="height: 50px; width: 200;">
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </table>
+          </div>
+          <button class="button" type="submit" onclick="validate()">Submit</button>
+      </div>
+      
+      
+    </div>
+
+
+    <!-- Example>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <!-- <input type="number" placeholder="Timepass"></input> -->
+
+    <script src="form.js"></script>
+    </form>
+  </section>
+</body>
+
+</html>

@@ -1,0 +1,185 @@
+hr.underline {
+    border: 4px solid rgba(255, 0, 0, 0.716);
+    align-items: center;
+    margin-bottom: 5%;
+    width: 60%;
+}
+
+.Heading {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.body {
+    background-color: #f1f1f1;
+}
+
+.name_p {
+    display: flex;
+}
+
+.name_c1 {
+    margin-left: 40px;
+}
+
+.name_c2 {
+    margin-left: 40px;
+}
+
+.address {
+    display: flex;
+    margin-left: 40px
+}
+
+.fn {
+    margin-left: 40px;
+}
+
+.add {
+    margin-left: 40px;
+}
+
+.address_2 {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.city_m {
+    display: flex;
+}
+
+.city_c1 {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.city_c2 {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.postal {
+    margin-top: 10px;
+    margin-left: 40px;
+
+}
+
+.pn {
+    margin-left: 40px;
+}
+
+.pn_area {
+    margin-top: 5px;
+    margin-left: 40px;
+
+}
+
+.email {
+    margin-left: 40px;
+}
+
+.email_area {
+    margin-top: 5px;
+    margin-left: 40px;
+
+}
+
+.container {
+    background-color: white;
+}
+
+.form {
+    margin-right: 50px;
+}
+
+.how {
+    margin-left: 40px;
+
+}
+
+.sec4 {
+    margin-left: 40px;
+}
+
+.yes:hover {
+    color: red;
+}
+
+.Maybe:hover {
+    color: red;
+}
+
+.No:hover {
+    color: red;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+}
+
+.table {
+    margin-left: 40px;
+}
+
+tr:hover {
+    background-color: #D6EEEE;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid rgb(7, 6, 6);
+}
+
+tr {
+    text-align: center;
+}
+
+th {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+.button {
+    background-color: rgba(255, 0, 0, 0.716);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 45%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.overlayimage {
+    width: 180px;
+    height: 180px;
+    border: 15px solid #f1f1f1;
+    border-radius: 50%;
+    position: relative;
+    top: -150px;
+    left: 1200px;
+    background-color: rgba(255, 0, 0, 0.716);
+
+}
+
+.block {
+    width: 180px;
+    height: 180px;
+    border: 15px solid #f1f1f1;
+    position: relative;
+    top: -220px;
+    left: 90px;
+    background-color: #f1f1f1;
+    -ms-transform: rotate(20deg);
+    transform: rotate(30deg);
+}
