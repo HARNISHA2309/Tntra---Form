@@ -16,7 +16,7 @@
       <div class="container">
         <h1 class="Heading"><b>Customer details</b></h1>
         <hr class="underline">
-        <form>
+        <form class="form1">
           <div class="fn">
             <label for="fname"><b>
                 <h3>Full Name:*</h3>
@@ -55,7 +55,7 @@
           <br>
           <div class="postal">
             <label for="postal" type="number"></label>
-              <textarea id="postal" name="PC" rows="2" cols="30" placeholder="Postal/Zip code"></textarea><br>
+            <textarea id="postal" name="PC" rows="2" cols="30" placeholder="Postal/Zip code"></textarea><br>
           </div>
           <div class="pn">
             <label for="city"><b>
@@ -71,7 +71,7 @@
               </b></lable>
           </div>
           <div class="email_area">
-            <textarea id="email_area" name="PC" rows="2" cols="30" placeholder="example@example.com"></textarea><br>
+            <textarea id="email" name="PC" rows="2" cols="30" placeholder="example@example.com"></textarea><br>
           </div>
           <div class="how">
             <label for="how"><b>
@@ -92,24 +92,25 @@
                 <label for="feedback"><b>
                     <h3>Suggestions if any for further Improvement</h3>
                   </b></lable><br>
-                  <textarea id="PC" name="PC" rows="10" cols="64"></textarea>
+                  <textarea id="suggestions" name="PC" rows="10" cols="64"></textarea>
           </div>
           <div class="sec4">
             <label for="recommend"><b>
                 <h3>will you be willing to recommend us?</h3>
               </b></lable><br>
               <div class="yes">
-                <input type="checkbox" id="Yes" name="yes" value="Yes">
+                <input type="checkbox" id="Yes" name="checktry" value="Yes">
                 <label for="Yes">Yes</label><br>
               </div>
               <div class="Maybe">
-                <input type="checkbox" id="Maybe" name="Maybe" value="Maybe">
+                <input type="checkbox" id="Maybe" name="checktry" value="Maybe">
                 <label for="Maybe">Maybe</label><br>
               </div>
               <div class="No">
-                <input type="checkbox" id="No" name="No" value="no">
+                <input type="checkbox" id="No" name="checktry" value="no">
                 <label for="No">No</label>
               </div>
+
           </div>
           <div class="table">
             <b>
@@ -118,36 +119,76 @@
             <table style="width:70%">
               <tr style="height:50px">
                 <th></th>
-                <th style="width: 200px;"> Name</th>
+                <th style="width: 200px;">Name</th>
+                <th style="width: 200px;">Contact</th>
                 <th style="width: 200px;">Address</th>
-                <th style="width: 200px;">Contact number</th>
               </tr>
-              <tr style="height: 50px; width: 200;">
-                <td style="width: 30px;">1</td>
+              <tr style="height: 50px;">
+                <td>1</td>
                 <td></td>
                 <td></td>
                 <td></td>
               </tr>
-              <tr style="height: 50px; width: 200;">
+
+              <tr style="height: 50px;">
                 <td>2</td>
                 <td></td>
                 <td></td>
                 <td></td>
               </tr>
+
+
+            </table>
+
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="Male" />
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="Female" />
+            <label for="others">Others</label>
+            <input type="radio" id="others" name="gender" value="Others" />
+
+            <button  class="button" type="submit" id="submit">Submit</button>
+
+
+            <table style="width:70%" id="table">
+              <tr style="height:50px">
+
+                <th style="width: 200px;">fname</th>
+                <th style="width: 200px;">Lname</th>
+                <th style="width: 200px;">Address</th>
+                <th style="width: 200px;">Address_2</th>
+                <th style="width: 200px;">city</th>
+                <th style="width: 200px;">state</th>
+                <th style="width: 200px;">Phone</th>
+                <th style="width: 200px;">feedback</th>
+                <th style="width: 200px;">email</th>
+                <th style="width: 200px;">Suggestions</th>
+                <th style="width: 200px;">gender</th>
+                <th style="width: 200px;">Will you recommend us</th>
+
+
+              </tr>
+            </table>
+
+
+
             </table>
           </div>
-          <button class="button" type="submit" onclick="validate()">Submit</button>
+
+
+
+        </form>
       </div>
-      
-      
+
     </div>
 
 
-    <!-- Example>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-    <!-- <input type="number" placeholder="Timepass"></input> -->
+
 
     <script src="form.js"></script>
-    </form>
+
+
+
   </section>
 </body>
 
